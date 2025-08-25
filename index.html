@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title id="t">RateCast- Get the latest rates & forecasts</title>
+    <link rel="icon" type="image/png" href="ratecast.png" sizes="45x45">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="logo">
+        <img src="ratecast.logo.png" alt="" srcset="">
+    </div>
+    <div class="btn">
+    <button id="a" onclick="cur()">Currency Converter</button>&nbsp;<button id="b" onclick="whe()">Whether Report</button>
+</div>
+<div class="main" id="m">
+    <div class="container" id="c">
+        <div class="head">
+            <div class="img"><img src="cc.png" alt="" srcset="" ></div>
+    <div class="text"><h1 style="color: aliceblue;">Currency Converter</h1></div>
+</div>
+    <form action="">
+    <div class="form">
+        <label style="color: aliceblue; text-decoration: solid; font-family: cursive;">Enter amount</label><br>
+        <input type="text" value="1">
+    </div>
+    <div class="selection">
+        <div class="selector1">
+            <p>From</p>
+            <img src="https://flagsapi.com/US/flat/64.png" width="50" style="position: relative; left: -34px;">
+            <select name="from" class="drop" id="">
+               
+                
+            </select>
+        </div>
+        <img src="exchange.svg" alt="" srcset="">
+        <div class="selector2">
+            <p>To</p>
+            <img src="https://flagsapi.com/IN/flat/64.png" width="50" style="position: relative; left: -34px;">
+            <select name="to" class="drop" id=""  >
+                
+               
+            </select>
+        </div>
+    </div>
+    <div class="result">
+        <h3 id="result">Click Button Below</h3>
+    </div>
+    <button type="submit" id="submit">Get Exchange Value</button>
+</form>
+</div>
+</div>
+
+</div>
+<div class="main1" id="m1">
+    <div class="container1" id="c1" >
+        <div class="weather-app">
+            <div class="head1">
+                <div class="img1"><img src="wr.png" alt="" srcset=""></div>
+            <div class="text1"><h1>Weather Report</h1></div>
+        </div>
+            <div class="inputs">
+              <input id="city" type="text" placeholder="Enter city name (e.g. London)">
+              <button id="get-weather">Get Weather</button>
+            </div>
+            <div id="weather-output"></div>
+          </div>
+</div>
+</div>
+<footer>
+    <div class="footer">
+        <p>&copy;2025 RateCast.All Right Reserved</p>
+        <p>Made In <img src="flag.png" alt="" srcset=""></p>
+    </div>
+</footer>
+</body>
+<script src="index.js"></script>
+</html>
