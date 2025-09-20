@@ -217,6 +217,31 @@ select {
   }
   
   @media (max-width: 460px){
+    
+    .head, .head1 {
+        display: flex;
+        align-items: center;
+        justify-content: start; 
+        width: 100%;
+        padding-left: 0; 
+        margin-bottom: 10px; 
+        gap: 10px; 
+      }
+    
+      .text h1 {
+        font-size: 20px;
+        color: white;
+        margin: 0;
+        text-align: center;
+        line-height: 1.2;
+      }
+      .text1 h1{
+        font-size: 20px;
+        color: black;
+        margin: 0;
+        text-align: center;
+        line-height: 1.2;
+      }
     .logo img{
         width:200px;
         margin-bottom: 40px;
@@ -240,20 +265,8 @@ select {
         width:45px;
         filter: invert(1);
     }
-    .text h1{
-        font-size: 26px;
-    }
-    .head1{
-        display: flex;
-        width: 280px;
-        padding-left: 1px;
-        
-    }
     .img1 img{
         width:45px;
-    }
-    .text1 h1{
-        font-size: 26px;
     }
     .container {
         border: 2px solid black;
